@@ -1,0 +1,78 @@
+.content {
+    margin: 100px;
+    position: relative;
+  }
+
+ .back {
+    position: absolute; 
+    top: 50px;
+    left: 150px;
+    z-index:-1;
+  }
+
+ .card-front {
+    display: block;
+    width: 450px;
+    height: 235px;
+    padding: 10px;
+    border-radius: 10px;
+    background:rgb(91, 221, 91);
+  }
+
+ .d-input {
+    width: 60px;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+
+  .numeral {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card-number {
+    width: 440px;
+    height: 35px;
+  }
+
+  .before {
+    color:rgb(3, 37, 3);
+    margin-top: 15px;
+  }
+
+  .text-before { 
+    color:rgb(80, 88, 80);
+  }
+
+  .card-back {
+    width: 450px;
+    height: 235px;
+    padding: 10px;
+    border-radius: 10px;
+    background:rgb(158, 155, 155);
+  }
+
+  .darkgrey {
+    border: 30px solid rgb(92, 88, 88);
+    color: rgb(49, 44, 44);
+    margin-top: 25px;
+  }
+
+  .cvc {
+    width: 48px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 500px;
+    padding-top: 50px;
+    margin-top: -130px;
+  }
+
+  .wbr {
+    margin-top: 5px;
+    color: rgb(71, 70, 70);
+  }
+
+  input[type="number"]::-webkit-inner-spin-button {
+    display: none;
+  }
+

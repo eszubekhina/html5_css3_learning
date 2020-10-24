@@ -1,0 +1,125 @@
+@media (max-width: 1024px) {
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+    } 
+
+    .main {
+        flex-direction: column;
+        align-items: center;
+        padding-top:100px ;
+    }
+
+    .form {
+        width: 320px;
+    }
+    
+    .footer_info {
+        flex-direction: column;  
+    }
+    
+    .footer_botton {
+        padding: 4px 31px;
+    }
+    
+    .footer__list {
+        margin-bottom: 24px;
+    }
+    
+@media (max-width: 667px) {
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    } 
+    
+    .main {
+        flex-direction: column;
+        }
+        
+    
+    .header{
+        padding-top: 24px;
+     }
+
+    .form {
+        width: 320px;
+    }
+    
+    .text_head {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .heading3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+    .footer {
+        padding-top: 18px;
+        padding-bottom: 32px;
+        margin-top: 64px;
+    }
+    
+    .footer_top {
+        flex-direction: column;  
+        padding-bottom: 41px;
+    }
+    
+    .footer_info {
+        flex-direction: column;  
+    }
+    
+    .footer__heading {
+        padding-top: 18px;
+        padding-bottom: 32px;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+    }
+    
+    .footer__heading{
+        width: 75%;
+        margin: 0 auto 32px;
+        text-align: center;
+    }
+    
+    .text_footer {
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        opacity: 0.6;
+        margin-bottom: 40px;
+    }
+    
+    .footer_copy{
+        margin-bottom: 32px;
+    }
+    
+    .footer_bottom {
+        padding: 32px 0px;
+    }
+    
+    .footer_botton {
+        font-size: 16px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+    }
+    
+    .footer_text {
+        width: 100%;
+    }
+    
+    .footer__list {
+        margin-bottom: 18px;
+    }
+       }
+    }
+    
+    
